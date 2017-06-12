@@ -43,7 +43,7 @@ public abstract class Aircraft {
 		builder.append(model);
 		builder.append("\nAircraft speed = ");
 		builder.append(speed);
-		builder.append("\nRange = ");
+		builder.append("MPH\nRange = ");
 		builder.append(range);
 		builder.append(" linear Miles\nPrice = $");
 		builder.append(price);
