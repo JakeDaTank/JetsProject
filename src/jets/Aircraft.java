@@ -39,14 +39,14 @@ public abstract class Aircraft {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Aircraft speed=");
-		builder.append(speed);
-		builder.append("\nRange =");
-		builder.append(range);
-		builder.append("Miles\nPrice = $");
-		builder.append(price);
-		builder.append("\nModel=");
+		builder.append("\nModel = ");
 		builder.append(model);
+		builder.append("\nAircraft speed = ");
+		builder.append(speed);
+		builder.append("\nRange = ");
+		builder.append(range);
+		builder.append(" linear Miles\nPrice = $");
+		builder.append(price);
 		return builder.toString();
 	}
 
